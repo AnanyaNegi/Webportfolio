@@ -19,3 +19,5 @@ or
 Locally to run, do:
 `gatsby build` or `yarn build`
 `gatsby serve` or `yarn serve`
+
+* For any queries regarding installation do create an issue.
