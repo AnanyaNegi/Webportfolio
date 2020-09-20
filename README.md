@@ -12,7 +12,7 @@ Use either npm or yarn, depending on your system.
 ## Developing
 `gatsby develop`
 or
-'npm start'
+`npm start`
 
 ## Publishing
 
