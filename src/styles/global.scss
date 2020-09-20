@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat|Electrolize|Titillium+Web:400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Monoton&family=Plaster&display=swap');
+html,
+body,
+.page {
+    height: 100%;
+    font-family: "Electrolize", sans-serif;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    opacity: 1;
+    background-image: url("/line.png");
+    background-repeat: repeat;
+    background-size: 1px 4px;
+    mix-blend-mode: overlay;
+}
+
+.main-wrapper {
+    flex: 1;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.header-wrapper {
+    flex: 0 0 auto;
+}
+
+.footer-wrapper {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.header-inner,
+.footer-inner {
+    padding: 4px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top {
+    font-size: 6.5rem;
+    color: #946a6a;
+    font-weight: 400;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    opacity: 0.4;
+    margin-bottom: 2px;
+    margin: auto;
+    padding: auto;
+}
+
+h1,
+h2,
+p {
+    color: white;
+    font-family: "Electrolize", sans-serif;
+}
+
+h1 {
+    font-family: "Nova Flat", sans-serif;
+    color: hsl(336, 18%, 84%);
+    opacity: .9;
+    font-weight: 500;
+}
+
+h2 {
+    color: #75616b;
+    font-size: 22px;
+}
+
+p {
+    color: #cfd2d3;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+a {
+    color: #f2eff0;
+    cursor: pointer;
+    transition: color 250ms ease-out;
+    text-shadow: 0 0 30px #e3d7d2;
+    text-decoration: none;
+    font-family: "Nova Flat", sans-serif;
+    font-size: 108%
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.success {
+    color: #f2f3f4 !important;
+}
+
+.success:hover {
+    color: #ffffff !important;
+}
+
+.logo {
+    height: 1rem;
+    bottom: 1rem;
+    margin-top: 0;
+    width: 80px !important;
+    filter: drop-shadow(0px 0px 20px #e8b0aa);
+    margin-bottom: 0px !important;
+}
+
+ul.nav {
+    justify-content: center;
+    display: flex;
+    padding-inline-start: 0;
+    margin-block-end: 0.5em;
+}
+
+ul.nav li {
+    padding-right: 15px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    ul.nav {
+        display: inline-flex;
+        margin: 25px 20px;
+    }
+    ul.nav li {
+        padding-right: 20px;
+        list-style-type: none;
+        font-size: 22px;
+    }
+    .header-inner {
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top {
+        font-size: 4.8rem;
+        color: #946a6a;
+        font-weight: 400;
+        font-family: 'Black Ops One', cursive;
+        display: flex;
+        opacity: 0.4;
+        margin-bottom: 2px;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ul.nav li:not(.logo) {
+        justify-content: center;
+        visibility: hidden;
+        padding-inline-start: 0;
+        margin-block-end: 0.5em;
+    }
+}
+
+.fafa {
+    font-size: 3rem;
+    padding-right: 12px;
+    margin-top: 0;
+    color: #b19393;
+    top: 1rem;
+}

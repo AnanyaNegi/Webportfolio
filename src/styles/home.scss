@@ -1,0 +1,127 @@
+#home.wrapper {
+    display: block;
+    align-items: center;
+    min-height: 24em;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+#home .container {
+    flex: none;
+    text-align: center;
+}
+
+@keyframes hideshow {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    15% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    17% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    35% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+}
+
+.a {
+    fill: #77757540;
+    animation: hideshow 4s ease;
+}
+
+.b,
+.c {
+    fill: none;
+    stroke: #77757540;
+    stroke-width: 27px;
+    animation: hideshow 4s ease;
+}
+
+.b {
+    stroke-linejoin: round;
+    animation: hideshow 4s ease;
+}
+
+.c {
+    stroke-miterlimit: 10;
+    animation: hideshow 4s ease;
+}
+
+.glitch {
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    left: -5rem;
+}
+
+@keyframes noise-anim {
+    $steps: 25;
+    @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+            clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+        }
+    }
+}
+
+.glitch:after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: none;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+    $steps: 20;
+    @for $i from 0 through $steps {
+        #{percentage($i*(1/$steps))} {
+            clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+        }
+    }
+}
+
+.glitch:before {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: none;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s linear alternate-reverse;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .glitch {
+        width: 300px;
+    }
+    #home.wrapper {
+        display: flex;
+    }
+    .profilepic {
+        left: 6.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .glitch {
+        left: -1.7rem;
+    }
+}

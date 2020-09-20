@@ -1,0 +1,17 @@
+
+#side-projects.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  #side-projects.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 22%;
+  }
+}
