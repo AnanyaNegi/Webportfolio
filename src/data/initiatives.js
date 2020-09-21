@@ -68,6 +68,24 @@ const initiatives = [{
             }
         ]
     },
+    {
+        key: 5,
+        title: 'Global Ambassador @ Womentechnetwork',
+        body: "Make a difference in the world by enabling women's empowerment in tech through leadership development, professional growth, mentorship and networking events for professionals.",
+        image_url: '/women.png',
+        caption: "WomenTech Network",
+        link_href: "https://www.womentech.net/en-in",
+        link_text: "WomenTech Network",
+        social: [{
+                url: "https://www.womentech.net/en-in",
+                className: 'fa-firefox',
+            },
+            {
+                url: "https://www.youtube.com/channel/UCpsE-oJ6Wh57Xd-xlRKDHnA",
+                className: 'fa-youtube',
+            }
+        ]
+    },
 
 
 ]
