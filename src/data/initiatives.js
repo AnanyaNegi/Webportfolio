@@ -18,21 +18,6 @@ const initiatives = [{
     },
     {
         key: 2,
-        title: "Blog on React Vs. Angular",
-        body: "Published a Blog on React vs. Angular technology, contrasting the pros and cons of both. ",
-        image_url: '/blog.png',
-        caption: "Source: Medium",
-        link_href: "https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6",
-        link_text: "DataXJournal",
-        social: [{
-                url: 'https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6',
-                className: 'fa-medium',
-            },
-
-        ]
-    },
-    {
-        key: 3,
         title: 'Mentor @ Expertrons',
         body: "Sharing my work experience to help aspirants.",
         image_url: '/ex.png',
@@ -49,9 +34,43 @@ const initiatives = [{
             }
         ]
     },
-
+    {
+        key: 3,
+        title: 'Global Ambassador @ Womentechnetwork',
+        body: "Making a difference in the world by enabling women's empowerment in tech through leadership development, professional growth, mentorship and networking events for professionals.",
+        image_url: '/women.png',
+        caption: "WomenTech Network",
+        link_href: "https://www.womentech.net/en-in",
+        link_text: "WomenTech Network",
+        social: [{
+                url: "https://www.womentech.net/en-in",
+                className: 'fa-firefox',
+            },
+            {
+                url: "https://www.youtube.com/channel/UCpsE-oJ6Wh57Xd-xlRKDHnA",
+                className: 'fa-youtube',
+            }
+        ]
+    },
     {
         key: 4,
+        title: "Blog on React Vs. Angular",
+        body: "Published a Blog on React vs. Angular technology, contrasting the pros and cons of both. ",
+        image_url: '/blog.png',
+        caption: "Source: Medium",
+        link_href: "https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6",
+        link_text: "DataXJournal",
+        social: [{
+                url: 'https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6',
+                className: 'fa-medium',
+            },
+
+        ]
+    },
+
+
+    {
+        key: 5,
         title: 'Core Member @ Codeloper',
         body: "Codeloper is a community of coding enthusiasts and developers that aims to help the students in the same field.",
         image_url: '/code.png',
@@ -68,24 +87,7 @@ const initiatives = [{
             }
         ]
     },
-    {
-        key: 5,
-        title: 'Global Ambassador @ Womentechnetwork',
-        body: "Make a difference in the world by enabling women's empowerment in tech through leadership development, professional growth, mentorship and networking events for professionals.",
-        image_url: '/women.png',
-        caption: "WomenTech Network",
-        link_href: "https://www.womentech.net/en-in",
-        link_text: "WomenTech Network",
-        social: [{
-                url: "https://www.womentech.net/en-in",
-                className: 'fa-firefox',
-            },
-            {
-                url: "https://www.youtube.com/channel/UCpsE-oJ6Wh57Xd-xlRKDHnA",
-                className: 'fa-youtube',
-            }
-        ]
-    },
+
 
 
 ]
