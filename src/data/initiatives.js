@@ -54,21 +54,23 @@ const initiatives = [{
     },
     {
         key: 4,
-        title: "Blog on React Vs. Angular",
-        body: "Published a Blog on React vs. Angular technology, contrasting the pros and cons of both. ",
-        image_url: '/blog.png',
-        caption: "Source: Medium",
-        link_href: "https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6",
-        link_text: "DataXJournal",
+        title: "Community member @ GDG Chennai",
+        body: "GDG Chennai is an initiative to concentrate the efforts of many developers in and around Chennai to learn, share and get productive.",
+        image_url: '/gdg.png',
+        caption: "GDG",
+        link_href: "https://gdg.community.dev/gdg-chennai/",
+        link_text: "Gooogle Developers Group",
         social: [{
-                url: 'https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6',
-                className: 'fa-medium',
+                url: 'https://gdgchennai.in/',
+                className: 'fa-firefox',
             },
+            {
+                url: "https://www.linkedin.com/company/gdg-chennai/",
+                className: 'fa-linkedin',
+            }
 
         ]
     },
-
-
     {
         key: 5,
         title: 'Core Member @ Codeloper',
@@ -84,9 +86,28 @@ const initiatives = [{
             {
                 url: "https://www.instagram.com/code.loper/",
                 className: 'fa-instagram',
-            }
+            },
         ]
     },
+
+    {
+        key: 6,
+        title: "Blog on React Vs. Angular",
+        body: "Published a Blog on React vs. Angular technology, contrasting the pros and cons of both. ",
+        image_url: '/blog.png',
+        caption: "Source: Medium",
+        link_href: "https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6",
+        link_text: "DataXJournal",
+        social: [{
+                url: 'https://medium.com/data-science-community-srm/react-vs-angular-battle-for-the-front-6b1e5ae173d6',
+                className: 'fa-medium',
+            },
+
+        ]
+    },
+
+
+
 
 
 
