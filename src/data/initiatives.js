@@ -54,7 +54,7 @@ const initiatives = [{
     },
     {
         key: 4,
-        title: "Community member @ GDG Chennai",
+        title: "Member @ GDG Chennai",
         body: "GDG Chennai is an initiative to concentrate the efforts of many developers in and around Chennai to learn, share and get productive.",
         image_url: '/gdg.png',
         caption: "GDG",
