@@ -29,7 +29,7 @@ export default () => (
     <div className="main-wrapper">
       <div id="side-projects" className="wrapper">
         <Appear animate>
-          <p>A collection of some projects I have worked on.Check out the github repo for further information.</p>
+          <p>A collection of projects I worked on. Check out the github repo for further information and don't forget to star the project if you find it helpful😄</p>
         </Appear>
       </div>
       <div id="side-projects" className="wrapper">

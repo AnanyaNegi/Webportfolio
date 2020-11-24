@@ -16,16 +16,18 @@ export default () => (
           <div className="glitch">
          
           <h1 className="top"> 
-          <span className="a">A</span>
-          <span className="a">N</span>
-          <span className="a">A</span>
-          <span className="a">N</span>
-          <span className="b">Y</span>
-          <span className="c">A</span>
+          <span className="a">H</span>
+          <span className="a">E</span>
+          <span className="a">L</span>
+          <span className="a">L</span>
+          <span className="b">O</span>
+          <span className="c">!</span>
+                    <span className="c">!</span>
+
           </h1>
          </div>
 
-         <Image animate resources='/profile.png' className="profilepic"
+         <Image animate resources='/profile.jpeg' className="profilepic"
           style={{
           width:'150px',
           height:'160px',
@@ -38,7 +40,7 @@ export default () => (
 
           <h1>
             <Words animate>
-              Web/App Developer
+              This is Ananya Negi
             </Words>
           </h1>
   

@@ -1,5 +1,23 @@
 const initiatives = [{
         key: 1,
+        title: 'Associate Technical Lead',
+        body: "Leading the technical team of SRM Hackerearth.",
+        image_url: '/hc.png',
+        caption: "SRM Hackerearth",
+        link_href: "https://www.srmhackerearth.in/index.html",
+        link_text: "We are a team of skilled Developers, unconventional Creators, and Public Relations experts, all existing with the purpose to innovate, create, and lead.",
+        social: [{
+                url: "https://www.linkedin.com/company/srm-hackerearth/?originalSubdomain=in",
+                className: 'fa-linkedin',
+            },
+            {
+                url: 'https://www.srmhackerearth.in/index.html',
+                className: 'fa-firefox',
+            }
+        ]
+    },
+    {
+        key: 2,
         title: 'Internship',
         body: "Web Develpment Internship at TMHM Company. Role of Intern and Frontend Team Lead.",
         image_url: '/tmhm.png',
@@ -17,7 +35,25 @@ const initiatives = [{
         ]
     },
     {
-        key: 2,
+        key: 3,
+        title: 'Mentor @ HackClub SRM',
+        body: "Helping Students give their dreams a face in the form of what they develop.",
+        image_url: '/hcc.png',
+        caption: "HackClub",
+        link_href: "",
+        link_text: "Hack Club",
+        social: [{
+                url: "https://github.com/Hack-Club-SRM",
+                className: 'fa-github',
+            },
+            {
+                url: "https://www.linkedin.com/company/hack-club-srm/",
+                className: 'fa-linkedin',
+            }
+        ]
+    },
+    {
+        key: 4,
         title: 'Mentor @ Expertrons',
         body: "Sharing my work experience to help aspirants.",
         image_url: '/ex.png',
@@ -35,7 +71,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 3,
+        key: 5,
         title: 'Global Ambassador @ Womentechnetwork',
         body: "Making a difference in the world by enabling women's empowerment in tech through leadership development, professional growth, mentorship and networking events for professionals.",
         image_url: '/women.png',
@@ -53,7 +89,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 4,
+        key: 6,
         title: "Member @ GDG Chennai",
         body: "GDG Chennai is an initiative to concentrate the efforts of many developers in and around Chennai to learn, share and get productive.",
         image_url: '/gdg.png',
@@ -72,8 +108,8 @@ const initiatives = [{
         ]
     },
     {
-        key: 5,
-        title: 'Core Member @ Codeloper',
+        key: 7,
+        title: 'Core Team Member @ Codeloper',
         body: "Codeloper is a community of coding enthusiasts and developers that aims to help the students in the same field.",
         image_url: '/code.png',
         caption: "Codeloper",
