@@ -8,10 +8,6 @@ body,
     font-family: "Electrolize", sans-serif;
 }
 
-html {
-    font-size: 17px;
-}
-
 body {
     overflow: hidden;
     background-color: black;
@@ -23,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     opacity: 1;
     background-image: url("/line.png");
     background-repeat: repeat;
@@ -32,6 +29,15 @@ body {
 
 .header-wrapper {
     flex: 0 0 auto;
+    width: 100%;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
 }
 
 .footer-wrapper {
@@ -53,9 +59,10 @@ body {
     font-family: 'Black Ops One', cursive;
     display: flex;
     opacity: 0.4;
-    margin-bottom: 2px;
     margin: auto;
     padding: auto;
+    width: 100%;
+    margin-bottom: 0;
 }
 
 h1,
@@ -70,6 +77,7 @@ h1 {
     color: hsl(336, 18%, 84%);
     opacity: .9;
     font-weight: 500;
+    margin-top: 2px;
 }
 
 h2 {
@@ -90,11 +98,11 @@ a {
     text-shadow: 0 0 30px #e3d7d2;
     text-decoration: none;
     font-family: "Nova Flat", sans-serif;
-    font-size: 108%
+    font-size: 108%;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #e7a4a4;
 }
 
 .success {
@@ -168,8 +176,8 @@ ul.nav li {
 }
 
 .fafa {
-    font-size: 2.95rem;
-    padding-right: 12px;
+    font-size: 2.8rem;
+    padding: 0.2rem;
     margin-top: 0;
     color: #b19393;
     top: 1rem;

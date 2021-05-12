@@ -1,5 +1,27 @@
 const initiatives = [{
         key: 1,
+        title: 'Mentor @ GSSoC',
+        body: "Mentor and maintainer for project Wordnook at Girlscript Summer of Code 2021.",
+        image_url: '/gssoc.png',
+        caption: "GSSoC'21",
+        link_href: "https://gssoc.girlscript.tech/",
+        link_text: "GirlScript Summer of Code is the 3 month long Open Source program conducted by GirlScript Foundation, with an aim to help beginners get started with Open Source Development while encouraging diversity.",
+        social: [{
+                url: "https://github.com/ALPHAVIO",
+                className: 'fa-github',
+            },
+            {
+                url: "https://www.linkedin.com/company/girlscriptsoc/",
+                className: 'fa-linkedin',
+            },
+            {
+                url: 'https://gssoc.girlscript.tech/',
+                className: 'fa-firefox',
+            }
+        ]
+    },
+    {
+        key: 2,
         title: 'Associate Technical Lead',
         body: "Leading the technical team of SRM Hackerearth.",
         image_url: '/hc.png',
@@ -17,7 +39,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 2,
+        key: 3,
         title: 'Internship',
         body: "Web Develpment Internship at TMHM Company. Role of Intern and Frontend Team Lead.",
         image_url: '/tmhm.png',
@@ -35,7 +57,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 3,
+        key: 4,
         title: 'Mentor @ HackClub SRM',
         body: "Helping Students give their dreams a face in the form of what they develop.",
         image_url: '/hcc.png',
@@ -53,7 +75,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 4,
+        key: 5,
         title: 'Mentor @ Expertrons',
         body: "Sharing my work experience to help aspirants.",
         image_url: '/ex.png',
@@ -71,7 +93,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 5,
+        key: 6,
         title: 'Global Ambassador @ Womentechnetwork',
         body: "Making a difference in the world by enabling women's empowerment in tech through leadership development, professional growth, mentorship and networking events for professionals.",
         image_url: '/women.png',
@@ -89,7 +111,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 6,
+        key: 7,
         title: "Member @ GDG Chennai",
         body: "GDG Chennai is an initiative to concentrate the efforts of many developers in and around Chennai to learn, share and get productive.",
         image_url: '/gdg.png',
@@ -108,7 +130,7 @@ const initiatives = [{
         ]
     },
     {
-        key: 7,
+        key: 8,
         title: 'Core Team Member @ Codeloper',
         body: "Codeloper is a community of coding enthusiasts and developers that aims to help the students in the same field.",
         image_url: '/code.png',
@@ -127,7 +149,7 @@ const initiatives = [{
     },
 
     {
-        key: 6,
+        key: 9,
         title: "Blog on React Vs. Angular",
         body: "Published a Blog on React vs. Angular technology, contrasting the pros and cons of both. ",
         image_url: '/blog.png',

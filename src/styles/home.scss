@@ -107,21 +107,18 @@
     animation: noise-anim-2 3s linear alternate-reverse;
 }
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .glitch {
-        width: 300px;
-    }
+@media only screen and (min-width: 200px) {
     #home.wrapper {
         display: flex;
-    }
-    .profilepic {
-        left: 6.5rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .glitch {
         left: -1.7rem;
+        width: 300px;
+    }
+    #home.wrapper {
+        display: flex;
     }
 }

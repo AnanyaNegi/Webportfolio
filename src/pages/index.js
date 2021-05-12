@@ -17,32 +17,37 @@ export default () => (
          
           <h1 className="top"> 
           <span className="a">H</span>
-          <span className="a">E</span>
-          <span className="a">L</span>
-          <span className="a">L</span>
-          <span className="b">O</span>
-          <span className="c">!</span>
-                    <span className="c">!</span>
+          <span className="a">i</span>
+          <span className="a">T</span>
+          <span className="a">h</span>
+          <span className="b">e</span>
+          <span className="c">r</span>
+          <span className="c">e</span>
+          <span className="c">,</span>
+         </h1>
 
-          </h1>
          </div>
-
-         <Image animate resources='/profile.jpeg' className="profilepic"
+         
+         
+          <h1>
+            <Words animate className="container word">
+              This is Ananya Negi.
+            </Words>
+         
+         </h1>
+         <Image animate resources='/profile.jpeg' id="profilepic" 
           style={{
-          width:'150px',
-          height:'160px',
-          position:'relative',
-          marginBottom:'4.2rem',
-          marginTop:'0',
-          left:'6.6rem',
-        
+          width:'10rem',
+          height:'10rem',
+        padding:'1.2rem',
+        marginTop:'0',
+        Position:'absolute',
+         left:'7.7rem',
+         bottom:'2.2rem',
+       
         }}></Image>
 
-          <h1>
-            <Words animate>
-              This is Ananya Negi
-            </Words>
-          </h1>
+        
   
 <div style={{marginBottom:'0.5rem',}}>
 <a href="https://github.com/AnanyaNegi"><FaGithub className="fafa"/></a>
@@ -61,12 +66,10 @@ export default () => (
             <Link to="/initiatives/">Initiatives</Link>
           </Button>
 
-           
-          <Paragraph/>
-
-
+         </div>
+ 
         </div>
       </div>
-    </div>
+   
   </Layout>
 )
